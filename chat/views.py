@@ -10,8 +10,8 @@ from django.utils import timezone
 def chat_room(request, room_name):
     search_query = request.GET.get('search', '') 
 
-    # Exclude specific users
-    excluded_users = ['neszen', 'jack', 'ethan']
+    # Exclude specific users -- not in assignment
+    excluded_users = ['alice', 'jack', 'ethan']
     users = User.objects.exclude(id=request.user.id).exclude(username__in=excluded_users)
 
     # Get the chats
