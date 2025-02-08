@@ -73,4 +73,4 @@ python manage.py collectstatic
 python manage.py migrate
 ```
 
-**Visit the website: http://15.207.89.103:8000/**
+**Visit the website: https://minglechat.duckdns.org**
