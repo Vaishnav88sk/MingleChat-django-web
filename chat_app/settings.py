@@ -99,8 +99,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'minglechat',
 	'USER': 'admin',
-	'PASSWORD': 'Minglechat123',
-	'HOST': 'minglechat.cnaoe2uceuue.ap-south-1.rds.amazonaws.com',
+	'PASSWORD': '<your-password>',
+	'HOST': 'your-rds-endpoint',
 	'PORT': '3306',
     }
 }
